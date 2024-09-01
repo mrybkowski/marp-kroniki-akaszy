@@ -1,5 +1,5 @@
-import initTranslations from "../i18n";
-import TranslationsProvider from "@/components/TranslationsProvider";
+import initTranslations from '../i18n';
+import TranslationsProvider from '@/components/TranslationsProvider';
 
 interface IHomeProps {
   params: {
@@ -7,7 +7,7 @@ interface IHomeProps {
   };
 }
 
-const namespaces = ["home", "common"];
+const namespaces = ['home', 'common'];
 
 export default async function Home({ params: { locale } }: IHomeProps) {
   const { t, resources } = await initTranslations({ locale, namespaces });
@@ -16,10 +16,9 @@ export default async function Home({ params: { locale } }: IHomeProps) {
     <TranslationsProvider
       locale={locale}
       namespaces={namespaces}
-      resources={resources}
-    >
+      resources={resources}>
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <h1>{t("welcome")}</h1>
+        <h1>{t('welcome')}</h1>
       </main>
     </TranslationsProvider>
   );
