@@ -4,6 +4,8 @@ import './globals.css';
 import TranslationsProvider from '@/components/TranslationsProvider';
 import initTranslations from '../i18n';
 import { Container } from '@/components/ui/container';
+import { cn } from '@/lib/utils';
+import { AOSInit } from '@/components/AOSInit';
 
 const montserrat = Montserrat({ subsets: ['latin'], weight: ['400', '700'] });
 
@@ -20,7 +22,7 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }>) {
-  const namespaces = ['home', 'common'];
+  const namespaces = ['home', 'common', 'about'];
 
   const { resources } = await initTranslations({
     locale: params.locale,
@@ -29,14 +31,13 @@ export default async function RootLayout({
 
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={montserrat.className}>
+      <body className={cn(montserrat.className, 'bg-zinc-100')}>
+        <AOSInit />
         <TranslationsProvider
           locale={params.locale}
           namespaces={namespaces}
           resources={resources}>
-          <main className="bg-zinc-100">
-            <Container className="gap-10 scroll-smooth">{children}</Container>
-          </main>
+          <Container className="gap-10 scroll-smooth">{children}</Container>
         </TranslationsProvider>
       </body>
     </html>
