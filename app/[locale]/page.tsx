@@ -1,7 +1,9 @@
+import { ModeToggle } from '@/components/ui/toggle-mode';
+
 import { Section as HeroSection } from './sections/hero';
 import { Section as AboutSection } from './sections/about';
 import { Section as SessionsSection } from './sections/sessions';
-import { ModeToggle } from '@/components/ui/toggle-mode';
+import { Section as MaterialsSection } from './sections/materials';
 
 export default function Home() {
   return (
@@ -10,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <SessionsSection />
+      <MaterialsSection />
     </main>
   );
 }

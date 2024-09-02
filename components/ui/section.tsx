@@ -7,7 +7,7 @@ const sectionVariants = cva('', {
   variants: {
     sectionBackgroundColor: {
       default: 'bg-transparent',
-      gray: 'bg-slate-100 dark:bg-transparent',
+      gray: 'bg-slate-100 dark:bg-slate-800',
       white: 'bg-white',
       green:
         'bg-[rgb(33,107,100)] bg-[radial-gradient(circle,rgba(33,107,100,1)_0%,rgba(19,84,78,1)_100%)]'
@@ -55,7 +55,7 @@ const Section = React.forwardRef<HTMLDivElement, SectionProps>(
     },
     ref
   ) => {
-    const Comp = asChild ? React.Fragment : 'div';
+    const Comp = asChild ? React.Fragment : 'section';
 
     return (
       <Comp

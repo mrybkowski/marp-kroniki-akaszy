@@ -1,1 +1,31 @@
-{"description":"Rozwój osobisty to klucz do odkrywania pełni swojego potencjału i osiągania życiowej satysfakcji. W tej sekcji znajdziesz narzędzia, wiedzę oraz wsparcie, które pomogą Ci świadomie kształtować swoją ścieżkę życiową.  Bez względu na to, czy chcesz poprawić swoje relacje, zwiększyć poczucie własnej wartości, czy zgłębić duchowe aspekty życia, jesteś we właściwym miejscu. Postaw na swój rozwój, aby w pełni realizować swoje cele i marzenia. Twoja transformacja zaczyna się tutaj.","subtitle":"Sesje","title":"Dostosowane pod Twoje potrzeby","type":{"akasha":{"shortDescription":"Kroniki Akaszy to energetyczny zapis. To każda nasza myśl, czyn, emocja. To Każdy wniosek przez nas wysnuty, który kiedykolwiek pojawił się w naszym czasie i przestrzeni (włącznie z wędrówka duszy).","title":"Czytanie z Kronik Akaszy"},"bioenergotherapy":{"shortDescription":"Bioenergoterapia to jedna z metod naturalnych prowadząca do polepszenia stanu zdrowia. Obszarem jej oddziaływania jest energetyczny system człowieka, jest on podobny do krwionośnego, lecz istnieje nie na planie fizycznym. Jest subtelną naturą energetyczną. W skład tego układu wchodzą czakry, czyli centra energetyczne.","title":"Bioenergoterapia"},"decoding":{"shortDescription":"Sesje, które prowadzę są skierowane do osób objętych: strachem, poczuciem winy, wstydem, zachłannością, kłamstwem, iluzją lub obsesyjnym przywiązaniem. Jest to 7 głównych zakłóceń, które mogą pojawić się chwilowo w naszym życiu lub rozgościć się na długie lata.","title":"Decoding oddechowy"},"hellinger":{"shortDescription":"Można porównać „egregor” systemowy do chmury, która nad nami wisi i rzuca cień nieustannie powodując, że w nas samych pobudza się chęć odwzajemnienia nastroju chmury.","title":"Ustawienia systemowe"},"radiesthesia":{"shortDescription":"Radiestezja jest obecna w życiu człowieku od 6000 lat przed naszą erą. Obejmowała ona Chiny, Indie, Egipt oraz Amerykę Przedkolumbijską. W Polsce datowanie najstarszego dokumentu o zastosowaniu różdżki to zapis z 1450 roku. W tamtym czasie była ona wykorzystywana do poszukiwania wody, kruszców oraz jak też rzeczy zagubionych","title":"Radiestezja"},"regression":{"shortDescription":"Jedna z naturalnych technik terapeutycznych, która ma na celu dotarcie do podświadomości, gdzie zapisana jest trauma związana z losowym zdarzeniem.","title":"Regresja hipnotyczna"}}}
+{
+  "description": "Rozwój osobisty to klucz do odkrywania pełni swojego potencjału i osiągania życiowej satysfakcji. W tej sekcji znajdziesz narzędzia, wiedzę oraz wsparcie, które pomogą Ci świadomie kształtować swoją ścieżkę życiową.  Bez względu na to, czy chcesz poprawić swoje relacje, zwiększyć poczucie własnej wartości, czy zgłębić duchowe aspekty życia, jesteś we właściwym miejscu. Postaw na swój rozwój, aby w pełni realizować swoje cele i marzenia. Twoja transformacja zaczyna się tutaj.",
+  "subtitle": "Sesje",
+  "title": "Dostosowane pod Twoje potrzeby",
+  "type": {
+    "akasha": {
+      "shortDescription": "Kroniki Akaszy to energetyczny zapis. To każda nasza myśl, czyn, emocja. To Każdy wniosek przez nas wysnuty, który kiedykolwiek pojawił się w naszym czasie i przestrzeni (włącznie z wędrówka duszy).",
+      "title": "Czytanie z Kronik Akaszy"
+    },
+    "bioenergotherapy": {
+      "shortDescription": "Bioenergoterapia to jedna z metod naturalnych prowadząca do polepszenia stanu zdrowia. Obszarem jej oddziaływania jest energetyczny system człowieka, jest on podobny do krwionośnego, lecz istnieje nie na planie fizycznym. Jest subtelną naturą energetyczną. W skład tego układu wchodzą czakry, czyli centra energetyczne.",
+      "title": "Bioenergoterapia"
+    },
+    "decoding": {
+      "shortDescription": "Sesje, które prowadzę są skierowane do osób objętych: strachem, poczuciem winy, wstydem, zachłannością, kłamstwem, iluzją lub obsesyjnym przywiązaniem. Jest to 7 głównych zakłóceń, które mogą pojawić się chwilowo w naszym życiu lub rozgościć się na długie lata.",
+      "title": "Decoding oddechowy"
+    },
+    "hellinger": {
+      "shortDescription": "Można porównać „egregor” systemowy do chmury, która nad nami wisi i rzuca cień nieustannie powodując, że w nas samych pobudza się chęć odwzajemnienia nastroju chmury.",
+      "title": "Ustawienia systemowe"
+    },
+    "radiesthesia": {
+      "shortDescription": "Radiestezja jest obecna w życiu człowieku od 6000 lat przed naszą erą. Obejmowała ona Chiny, Indie, Egipt oraz Amerykę Przedkolumbijską. W Polsce datowanie najstarszego dokumentu o zastosowaniu różdżki to zapis z 1450 roku. W tamtym czasie była ona wykorzystywana do poszukiwania wody, kruszców oraz jak też rzeczy zagubionych",
+      "title": "Radiestezja"
+    },
+    "regression": {
+      "shortDescription": "Jedna z naturalnych technik terapeutycznych, która ma na celu dotarcie do podświadomości, gdzie zapisana jest trauma związana z losowym zdarzeniem.",
+      "title": "Regresja hipnotyczna"
+    }
+  }
+}

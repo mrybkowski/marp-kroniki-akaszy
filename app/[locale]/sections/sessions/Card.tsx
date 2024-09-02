@@ -25,7 +25,7 @@ function Card({
     <div className="bg-slate-900 h-full flex items-start flex-col-reverse md:flex-row justify-start rounded-2xl md:mr-10 mr-0">
       <div className="flex flex-col justify-around p-5 md:w-2/3 lg:w-1/2 h-full gap-5">
         <H4 className="text-white">{title}</H4>
-        <P className="text-white">{shortDescription}</P>
+        <P textColor="white">{shortDescription}</P>
         <div className="flex flex-col items-start gap-3">
           <Button variant="linkWhite">{t('common:action.readMore')}</Button>
           <Button>{t('common:action.signUp')}</Button>
@@ -33,11 +33,12 @@ function Card({
       </div>
       <div className="md:w-1/3 lg:w-1/2 h-full w-full">
         <Image
-          width={450}
-          height={450}
+          width={300}
+          height={300}
           className="object-cover w-full h-full rounded-2xl"
           src={image}
           alt={title}
+          loading="lazy"
         />
       </div>
     </div>

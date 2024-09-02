@@ -6,9 +6,9 @@ import { cn } from '../../lib/utils';
 const H2Variants = cva('text-balance font-bold', {
   variants: {
     textColor: {
-      default: 'text-slate-800 dark:text-',
+      default: 'text-slate-800 dark:text-white',
       white: 'text-white',
-      blue: 'text-blue-700'
+      blue: 'text-blue-700 dark:text-white'
     }
   },
   defaultVariants: {

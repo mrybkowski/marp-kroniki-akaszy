@@ -1,0 +1,23 @@
+{
+  "description": "W ramach tej sekcji udostępniamy bogaty zbiór materiałów, które stanowią kompendium wiedzy na temat rozwoju osobistego. Znajdziesz tu artykuły, książki, ćwiczenia oraz inne zasoby, które pomogą Ci w zgłębianiu kluczowych tematów, odkrywaniu nowych perspektyw i wdrażaniu efektywnych strategii. Te materiały są starannie dobrane, aby wspierać Cię w każdym aspekcie Twojej podróży rozwoju osobistego.",
+  "subtitle": "Materiały",
+  "title": "Zbiór wiedzy",
+  "type": {
+    "consciousBreathing": {
+      "shortDescription": "Nasze życie tuż po urodzeniu rozpoczyna się wdechem a kończy w czasie śmierci z wydechem. Oddech to życie. Prawidłowy oddech to jakość naszego życia. Na co dzień nie zwracamy uwagi w jaki sposób oddychamy, a okazuje się że poprzez świadomy oddech możemy rozładować każde napięcie nerwowe i stres bez względu na jego pochodzenie bądź podłoże.",
+      "title": "Świadomy oddech"
+    },
+    "lawsOfTheUniverse": {
+      "shortDescription": "Bez względu na to, czy je znamy, czy nie, żyjemy wg. tych zasad… Kybalion – hermetyczny traktat z 1908 roku, autorstwa anonimowych osób, podpisujących się jako Trzej Wtajemniczeni. Kybalion przedstawia filozofię hermetyzmu i siedem praw, na których się ona opiera...",
+      "title": "7 Uniwersalnych Praw Wszechświata"
+    },
+    "nonPersonalizedReadings": {
+      "shortDescription": "Zbiór uniwersalnych odczytów z Kronik Akaszy - znajdź swoją ścieżkę, zrozum symbole i metafory.",
+      "title": "Odczyty niespersonalizowane"
+    },
+    "sampleSystemSettings": {
+      "shortDescription": "Zbiór przykładowych ustawień systemowych Naszych podopiecznych. Wszystkie dane zostały zebrane i przetworzone za zgodą klientów.",
+      "title": "Przykładowe Ustawienia Systemowe"
+    }
+  }
+}

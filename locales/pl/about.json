@@ -1,1 +1,19 @@
-{"description":"Z radością dzielimy się naszym doświadczeniem zdobytym od października 2019 roku, kiedy Kroniki Akaszy oficjalnie stały się częścią naszej drogi.<br><br> Od tego czasu nasz rozwój zawodowy nieustannie się wzbogaca. Ukończyliśmy liczne szkolenia, obejmujące m.in. family coaching, pracę z podświadomością oraz hipnozę regresyjną. Nabyte umiejętności i zgromadzona wiedza znajdują zastosowanie w naszej praktyce, gdzie prowadzimy indywidualne sesje oraz warsztaty. Pragniemy dzielić się tą wiedzą, inspirując do nowego zrozumienia życia i otwarcia się na nowe możliwości. Serdecznie zapraszamy do rozpoczęcia tej fascynującej podróży już dziś.","subtitle":"O nas","title":"Nasza działalność","values":{"contact":{"description":"95% “odczytów” robię telefonicznie. Proszę o imiona, nazwiska oraz datę urodzenia.","title":"Kontakt"},"philosophy":{"description":"Mając dane osobowe pytam w swoich Kronikach Akaszy, czy mogę zrobić “odczyt” oraz dowiaduję się jaka jest jego wycena. Przesyłam Ci informację zwrotną. Jeśli ją zaakceptujesz umawiamy wolny termin.","title":"Filozofia"},"trust":{"description":"Dane dotyczące Ciebie są wiadome tylko mi i tylko na potrzeby “odczytu”. Nie przechowuję żadnych notatek. Wszystko po “odczycie” jest niszczone.","title":"Zaufanie"}}}
+{
+  "description": "Z radością dzielimy się naszym doświadczeniem zdobytym od października 2019 roku, kiedy Kroniki Akaszy oficjalnie stały się częścią naszej drogi.<br><br> Od tego czasu nasz rozwój zawodowy nieustannie się wzbogaca. Ukończyliśmy liczne szkolenia, obejmujące m.in. family coaching, pracę z podświadomością oraz hipnozę regresyjną. Nabyte umiejętności i zgromadzona wiedza znajdują zastosowanie w naszej praktyce, gdzie prowadzimy indywidualne sesje oraz warsztaty. Pragniemy dzielić się tą wiedzą, inspirując do nowego zrozumienia życia i otwarcia się na nowe możliwości. Serdecznie zapraszamy do rozpoczęcia tej fascynującej podróży już dziś.",
+  "subtitle": "O nas",
+  "title": "Nasza działalność",
+  "values": {
+    "contact": {
+      "description": "95% “odczytów” robię telefonicznie. Proszę o imiona, nazwiska oraz datę urodzenia.",
+      "title": "Kontakt"
+    },
+    "philosophy": {
+      "description": "Mając dane osobowe pytam w swoich Kronikach Akaszy, czy mogę zrobić “odczyt” oraz dowiaduję się jaka jest jego wycena. Przesyłam Ci informację zwrotną. Jeśli ją zaakceptujesz umawiamy wolny termin.",
+      "title": "Filozofia"
+    },
+    "trust": {
+      "description": "Dane dotyczące Ciebie są wiadome tylko mi i tylko na potrzeby “odczytu”. Nie przechowuję żadnych notatek. Wszystko po “odczycie” jest niszczone.",
+      "title": "Zaufanie"
+    }
+  }
+}

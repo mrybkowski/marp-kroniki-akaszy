@@ -8,6 +8,10 @@ interface ImageKey {
   radiesthesia: string;
   regressionSessions: string;
   systemSettingsSession: string;
+  consciousBreathing: string;
+  lawsOfTheUniverse: string;
+  nonPersonalizedReadings: string;
+  sampleSystemSettings: string;
 }
 
 export function cn(...inputs: ClassValue[]) {
@@ -20,5 +24,9 @@ export const imageDatabase: Record<keyof ImageKey, string> = {
   decoding: '/decoding.webp',
   radiesthesia: '/radiesthesia.webp',
   regressionSessions: '/regression.webp',
-  systemSettingsSession: '/system-settings.webp'
+  systemSettingsSession: '/system-settings.webp',
+  consciousBreathing: '/consciousBreathing.webp',
+  lawsOfTheUniverse: '/lawsOfTheUniverse.webp',
+  nonPersonalizedReadings: '/nonPersonalizedReadings.webp',
+  sampleSystemSettings: '/sampleSystemSettings.webp'
 };

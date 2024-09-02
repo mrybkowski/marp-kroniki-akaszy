@@ -22,7 +22,7 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }>) {
-  const namespaces = ['home', 'common', 'about', 'sessions'];
+  const namespaces = ['home', 'common', 'about', 'sessions', 'materials'];
 
   const { resources } = await initTranslations({
     locale: params.locale,

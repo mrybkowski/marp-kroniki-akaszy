@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-
 import Card from './Card';
 import { imageDatabase } from '@/lib/utils';
 import Carousel from '@/components/ui/carousel';
@@ -7,44 +6,55 @@ import Carousel from '@/components/ui/carousel';
 function CarouselWrapper() {
   const { t } = useTranslation();
 
-  const sessionItems = [
-    <Card
-      key="1"
-      title={t('sessions:type.akasha.title')}
-      shortDescription={t('sessions:type.akasha.shortDescription')}
-      image={imageDatabase.akashaSession}
-    />,
-    <Card
-      key="2"
-      title={t('sessions:type.hellinger.title')}
-      shortDescription={t('sessions:type.hellinger.shortDescription')}
-      image={imageDatabase.systemSettingsSession}
-    />,
-    <Card
-      key="3"
-      title={t('sessions:type.regression.title')}
-      shortDescription={t('sessions:type.regression.shortDescription')}
-      image={imageDatabase.regressionSessions}
-    />,
-    <Card
-      key="4"
-      title={t('sessions:type.bioenergotherapy.title')}
-      shortDescription={t('sessions:type.bioenergotherapy.shortDescription')}
-      image={imageDatabase.bioenergotherapy}
-    />,
-    <Card
-      key="5"
-      title={t('sessions:type.radiesthesia.title')}
-      shortDescription={t('sessions:type.radiesthesia.shortDescription')}
-      image={imageDatabase.radiesthesia}
-    />,
-    <Card
-      key="6"
-      title={t('sessions:type.decoding.title')}
-      shortDescription={t('sessions:type.decoding.shortDescription')}
-      image={imageDatabase.decoding}
-    />
+  const sessionData = [
+    {
+      key: '1',
+      titleKey: 'sessions:type.akasha.title',
+      descriptionKey: 'sessions:type.akasha.shortDescription',
+      image: imageDatabase.akashaSession
+    },
+    {
+      key: '2',
+      titleKey: 'sessions:type.hellinger.title',
+      descriptionKey: 'sessions:type.hellinger.shortDescription',
+      image: imageDatabase.systemSettingsSession
+    },
+    {
+      key: '3',
+      titleKey: 'sessions:type.regression.title',
+      descriptionKey: 'sessions:type.regression.shortDescription',
+      image: imageDatabase.regressionSessions
+    },
+    {
+      key: '4',
+      titleKey: 'sessions:type.bioenergotherapy.title',
+      descriptionKey: 'sessions:type.bioenergotherapy.shortDescription',
+      image: imageDatabase.bioenergotherapy
+    },
+    {
+      key: '5',
+      titleKey: 'sessions:type.radiesthesia.title',
+      descriptionKey: 'sessions:type.radiesthesia.shortDescription',
+      image: imageDatabase.radiesthesia
+    },
+    {
+      key: '6',
+      titleKey: 'sessions:type.decoding.title',
+      descriptionKey: 'sessions:type.decoding.shortDescription',
+      image: imageDatabase.decoding
+    }
   ];
+
+  const sessionItems = sessionData.map(
+    ({ key, titleKey, descriptionKey, image }) => (
+      <Card
+        key={key}
+        title={t(titleKey)}
+        shortDescription={t(descriptionKey)}
+        image={image}
+      />
+    )
+  );
 
   return <Carousel items={sessionItems} />;
 }

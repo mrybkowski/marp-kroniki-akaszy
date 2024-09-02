@@ -16,6 +16,7 @@ function Section() {
     <SectionWrapper
       key="witajcie"
       id="witajcie"
+      sectionBackgroundColor="gray"
       className="flex lg:flex-row flex-col-reverse items-center gap-5">
       <div className="flex flex-col lg:w-1/2 w-full gap-5">
         <H1 textColor="green">{t('common:app.title')}</H1>
