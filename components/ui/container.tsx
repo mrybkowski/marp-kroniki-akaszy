@@ -3,7 +3,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 
 import { cn } from '../../lib/utils';
 
-const containerVariants = cva('flex flex-col mx-auto bg-zinc-100', {
+const containerVariants = cva('flex flex-col mx-auto', {
   variants: {
     backgroundColor: {
       default: 'transparent'

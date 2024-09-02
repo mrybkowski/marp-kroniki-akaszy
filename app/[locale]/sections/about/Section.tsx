@@ -9,6 +9,9 @@ import {
   ImportContacts,
   LightbulbOutlined
 } from '@mui/icons-material';
+import { H2 } from '@/components/ui/typography-h2';
+import { H3 } from '@/components/ui/typography-h3';
+import Values from './Values';
 
 function Section() {
   const { t } = useTranslation();
@@ -27,65 +30,35 @@ function Section() {
             title="O nas - film prezentacyjny"
           />
         </div>
-        <div className="flex flex-col just gap-5 justify-end lg:w-1/2 sm:pt-0 pt-5">
+        <div className="flex flex-col gap-5 justify-end lg:w-1/2 sm:pt-0 pt-5">
           <div className="flex flex-col">
-            <h2 className="text-white font-bold">#{t('about:subtitle')}</h2>
-            <h3 className="text-balance lg:text-5xl text-4xl text-green-400">
-              {t('about:title')}
-            </h3>
+            <H2 textColor="white">#{t('about:subtitle')}</H2>
+            <H3 textColor="green">{t('about:title')}</H3>
           </div>
-          <div className="text-white">
-            <div
-              dangerouslySetInnerHTML={{
-                __html: t('about:description')
-              }}></div>
-            <br />
-            <Button variant="link" className="text-white">
-              {t('common:action.readMore')}
-            </Button>
-          </div>
+          <div
+            className="text-white"
+            dangerouslySetInnerHTML={{
+              __html: t('about:description')
+            }}></div>
+          <Button variant="linkWhite">{t('common:action.readMore')}</Button>
         </div>
       </div>
       <div className="flex flex-col lg:flex-row mt-5 gap-10 w-full">
-        <div
-          className="flex flex-col p-5 lg:w-1/3 gap-5 bg-white rounded-2xl"
-          data-aos="fade-up">
-          <div className="flex flex-row items-center justify-between">
-            <h4 className="text-xl font-bold">
-              {t('about:values.contact.title')}
-            </h4>
-            <ImportContacts fontSize="medium" />
-          </div>
-          <p className="text-balance">
-            {t('about:values.contact.description')}
-          </p>
-        </div>
-
-        <div
-          className="flex flex-col p-5 lg:w-1/3 gap-5 bg-white rounded-2xl"
-          data-aos="fade-up">
-          <div className="flex flex-row items-center justify-between">
-            <h4 className="text-xl font-bold">
-              {t('about:values.philosophy.title')}
-            </h4>
-            <LightbulbOutlined fontSize="medium" />
-          </div>
-          <p className="text-balance">
-            {t('about:values.philosophy.description')}
-          </p>
-        </div>
-
-        <div
-          className="flex flex-col p-5 lg:w-1/3 gap-5 bg-white rounded-2xl"
-          data-aos="fade-up">
-          <div className="flex flex-row items-center justify-between">
-            <h4 className="text-xl font-bold">
-              {t('about:values.trust.title')}
-            </h4>
-            <Handshake fontSize="medium" />
-          </div>
-          <p className="text-balance">{t('about:values.trust.description')}</p>
-        </div>
+        <Values
+          title={t('about:values.contact.title')}
+          description={t('about:values.contact.description')}
+          icon={<ImportContacts fontSize="medium" />}
+        />
+        <Values
+          title={t('about:values.philosophy.title')}
+          description={t('about:values.philosophy.description')}
+          icon={<LightbulbOutlined fontSize="medium" />}
+        />
+        <Values
+          title={t('about:values.trust.title')}
+          description={t('about:values.trust.description')}
+          icon={<Handshake fontSize="medium" />}
+        />
       </div>
     </SectionWrapper>
   );

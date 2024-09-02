@@ -6,8 +6,8 @@ import { cn } from '../../lib/utils';
 const sectionVariants = cva('', {
   variants: {
     sectionBackgroundColor: {
-      default: 'bg-white',
-      gray: 'bg-zinc-100',
+      default: 'bg-transparent',
+      gray: 'bg-slate-100 dark:bg-transparent',
       white: 'bg-white',
       green:
         'bg-[rgb(33,107,100)] bg-[radial-gradient(circle,rgba(33,107,100,1)_0%,rgba(19,84,78,1)_100%)]'
